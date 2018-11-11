@@ -6,8 +6,9 @@ using System.Threading.Tasks;
 
 namespace udemyCsharpPractice
 {
+    //Section 4 Lectures 26-39 
+
     //class for Reference and Value types
-    //Section 4 Lecture 37
     public class ReferenceAndValueTypes
     {
         public static void Example()
@@ -97,7 +98,6 @@ namespace udemyCsharpPractice
             person.Age += 10;
         }
     }
-
     public class Person
     {
         public int Age;

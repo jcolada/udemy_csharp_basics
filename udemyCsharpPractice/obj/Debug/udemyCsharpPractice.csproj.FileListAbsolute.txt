@@ -5,3 +5,10 @@ C:\Users\jcola\source\repos\udemyCsharpBasics\udemyCsharpPractice\udemyCsharpPra
 C:\Users\jcola\source\repos\udemyCsharpBasics\udemyCsharpPractice\udemyCsharpPractice\bin\Debug\udemyCsharpPractice.pdb
 C:\Users\jcola\source\repos\udemyCsharpBasics\udemyCsharpPractice\udemyCsharpPractice\obj\Debug\udemyCsharpPractice.exe
 C:\Users\jcola\source\repos\udemyCsharpBasics\udemyCsharpPractice\udemyCsharpPractice\obj\Debug\udemyCsharpPractice.pdb
+C:\Users\jcola\source\repos\udemyCsharpBasics\udemyCsharpBasics\udemyCsharpPractice\bin\Debug\udemyCsharpPractice.exe.config
+C:\Users\jcola\source\repos\udemyCsharpBasics\udemyCsharpBasics\udemyCsharpPractice\bin\Debug\udemyCsharpPractice.exe
+C:\Users\jcola\source\repos\udemyCsharpBasics\udemyCsharpBasics\udemyCsharpPractice\bin\Debug\udemyCsharpPractice.pdb
+C:\Users\jcola\source\repos\udemyCsharpBasics\udemyCsharpBasics\udemyCsharpPractice\obj\Debug\udemyCsharpPractice.csprojResolveAssemblyReference.cache
+C:\Users\jcola\source\repos\udemyCsharpBasics\udemyCsharpBasics\udemyCsharpPractice\obj\Debug\udemyCsharpPractice.csproj.CoreCompileInputs.cache
+C:\Users\jcola\source\repos\udemyCsharpBasics\udemyCsharpBasics\udemyCsharpPractice\obj\Debug\udemyCsharpPractice.exe
+C:\Users\jcola\source\repos\udemyCsharpBasics\udemyCsharpBasics\udemyCsharpPractice\obj\Debug\udemyCsharpPractice.pdb
