@@ -107,33 +107,61 @@ namespace udemyCsharpPractice
     {
         public static void Practice()
         {
-            CF_E1_Q1();
-
+            //CF_E1_Q1();
+            //CF_E1_Q2();
+            //CF_E1_Q3();
+            CF_E1_Q4();
         }
         public static void CF_E1_Q1()
         {
-            var value ="";
             Console.WriteLine("Please enter a value between 1 & 10");
-            value = Console.ReadLine();         
-            switch(value)
+            var value = Convert.ToInt32(Console.ReadLine());      
+            if ((value >= 1) && (value <= 10))           
+                Console.WriteLine("Thank you for the value - " + value);            
+            else            
+                Console.WriteLine("Value not valid - " + value);                   
+        }
+        public static void CF_E1_Q2()
+        {
+            Console.WriteLine("Please Enter a number"); 
+            var a = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("Please Enter a second number");
+            var b = Convert.ToInt32(Console.ReadLine());
+            var max = (a > b) ? a : b;
+
+            Console.WriteLine("Max value = " + max + " of " + a + "," + b);
+        }
+        public static void CF_E1_Q3()
+        {
+            Console.WriteLine("What is the width of the picture?");
+            var width = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("What is the height of the picture?");
+            var height = Convert.ToInt32(Console.ReadLine());
+            var orientation = (width > height) ? "Landscape" : "Portrait";
+
+            Console.WriteLine("The orientation of your piture is " + orientation);
+        }
+        public static void CF_E1_Q4()
+        {
+            Console.WriteLine("What is the speed limit?");
+            var limit = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("What was the speed of the vehicle?");
+            var speed = Convert.ToInt32(Console.ReadLine());
+            var demerits = 0;
+            if (speed <= limit)
+                Console.WriteLine("Ok");
+            else if (speed > limit)
             {
-                case "1":
-                case "2":
-                case "3":
-                case "4":
-                case "5":
-                case "6":
-                case "7":
-                case "8":
-                case "9":
-                case "10":
-                    Console.WriteLine("Thank you for entering a number between 1 & 10 - " + value);
-                    break;
-                default:
-                    Console.WriteLine("The Entry: " + value + " is not between 1 & 10");
-                    Practice();
-                    break;
-            }          
+                demerits = (speed - limit) / 5;
+                if (demerits >= 12)
+                {
+                    Console.WriteLine("License Suspended");
+                    Console.WriteLine(demerits + " demerits");
+                }                                  
+                else
+                    Console.WriteLine("Slow down! " + demerits + " demerits added to License");
+            }
+            CF_E1_Q4();
         }
     }
 }
